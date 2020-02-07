@@ -25,8 +25,30 @@ map.fitBounds(imageBounds);
 L.imageOverlay(image.url, imageBounds).addTo(map);
 
 const seatPosition = [
-    {X:30, Y:-20},
-    {X:30, Y:-45}
+    {X:40, Y:-30},
+    {X:40, Y:-55},
+    {X:40, Y:-80},
+    {X:40, Y:-105},
+    {X:40, Y:-130},
+    {X:40, Y:-155},
+    {X:75, Y:-30},
+    {X:75, Y:-55},
+    {X:75, Y:-80},
+    {X:75, Y:-105},
+    {X:75, Y:-130},
+    {X:75, Y:-155},
+    {X:190, Y:-30},
+    {X:190, Y:-55},
+    {X:190, Y:-80},
+    {X:190, Y:-105},
+    {X:190, Y:-130},
+    {X:190, Y:-155},
+    {X:225, Y:-30},
+    {X:225, Y:-55},
+    {X:225, Y:-80},
+    {X:225, Y:-105},
+    {X:225, Y:-130},
+    {X:225, Y:-155},
 ];
 
 const iconParam = (name) => {
@@ -78,3 +100,28 @@ personStatus = {
     tel: 'もうか'
 }
 addPerson(personStatus, 1);
+// addPerson(personStatus, 2);
+// addPerson(personStatus, 3);
+addPerson(personStatus, 4);
+// addPerson(personStatus, 5);
+
+// addPerson(personStatus, 6);
+// addPerson(personStatus, 7);
+addPerson(personStatus, 8);
+addPerson(personStatus, 9);
+// addPerson(personStatus, 10);
+addPerson(personStatus, 11);
+
+addPerson(personStatus, 12);
+// addPerson(personStatus, 13);
+// addPerson(personStatus, 14);
+// addPerson(personStatus, 15);
+addPerson(personStatus, 16);
+// addPerson(personStatus, 17);
+
+// addPerson(personStatus, 18);
+addPerson(personStatus, 19);
+// addPerson(personStatus, 20);
+// addPerson(personStatus, 21);
+addPerson(personStatus, 22);
+addPerson(personStatus, 23);

@@ -4,9 +4,10 @@
 }
 
 .seatIcon {
-    background-color: azure;
+    background-color: #f0ffffb0;
     white-space: nowrap;
     height: 16px;
+    border: solid 1px #000000;
 }
 
 .statusName {
